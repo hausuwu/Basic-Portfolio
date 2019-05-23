@@ -1,0 +1,14 @@
+body{
+    background: grey;
+}
+h1{
+    background: lightgray;
+    display: inline;
+    padding: 20px;
+}
+.topnav{
+    float: right;
+}
+.wrapper{
+    margin-left: 80;
+}
