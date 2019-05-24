@@ -1,14 +1,38 @@
+/* header & nav bar */
+header{
+    background: blue;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+}
+.topnav{
+    float: right;
+}
+
+/* body content */
 body{
-    background: grey;
 }
 h1{
     background: lightgray;
     display: inline;
     padding: 20px;
 }
-.topnav{
-    float: right;
-}
+
 .wrapper{
-    margin-left: 80;
+    margin: 0 auto;
+    max-width: 960px;
+}
+.copybox{
+    background: red;
+    padding: 20px;
+}
+
+/* footer */
+.footerbox{
+    background: #777777;
+    color: white;
+    padding: 30px 0px 0px 0px;
+    border-top: 10px solid green;
+    margin-top: 50px;
 }
