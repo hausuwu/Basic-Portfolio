@@ -1,38 +1,99 @@
-/* header & nav bar */
+/* Content formating */
+*{
+    box-sizing: border-box;
+}
+/* tried to make the footer responsive */
+/* #page-container{
+    position: relative;
+    min-height: 100%;
+}
+#content-wrap{
+
+} */
+
+
+/* header & Navbar */
 header{
-    background: blue;
+    background: #013A40;
     padding: 30px;
     margin-bottom: 50px;
-}
-
+    border-bottom: 2px solid #80BFB4;
 }
 .topnav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+.navpages{
+    background: #013A40;
     float: right;
 }
+.name{
+    display: inline;
+    font-weight: bold;
+    font-size: 40px;
+    color: #F2F2F2;
+}
+li a{
+    display: block;
+    color: #F2F2F2;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+}
+
 
 /* body content */
 body{
+    background-image: url(/funky-lines.png);
+    background: #F2F2F2;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 h1{
-    background: lightgray;
+    background: #80BFB4;
     display: inline;
-    padding: 20px;
+    padding: 30px;
+}
+
+#biophoto{
+    float: left;
+    padding: 20px 20px 0px 0px;
 }
 
 .wrapper{
     margin: 0 auto;
     max-width: 960px;
 }
+.headline{
+    font-weight: bold;
+    font-size: 30px;
+}
+hr{
+    border-color: #0D0D0D;
+}
 .copybox{
-    background: red;
-    padding: 20px;
+    background: #F2F2F2;
+    padding: 30px;
+    float: right;
+    line-height: 20px;
+    border: 2px solid #80BFB4;
+}
+.bodycopy{
+    margin-top: 30px;
 }
 
 /* footer */
 .footerbox{
-    background: #777777;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #0D0D0D;
     color: white;
-    padding: 30px 0px 0px 0px;
-    border-top: 10px solid green;
+    padding-top: 50px;
+    border-top: 10px solid #80BFB4;
     margin-top: 50px;
+    text-align: center;
 }
