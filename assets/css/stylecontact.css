@@ -1,0 +1,15 @@
+.contactbox{
+    background: #F2F2F2;
+    padding: 30px;
+    line-height: 20px;
+    border: 2px solid #80BFB4;
+}
+input{
+    width: 100%;
+}
+textarea{
+    width: 100%;
+}
+/* label{
+    margin-top: 20px;
+} */

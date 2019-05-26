@@ -69,6 +69,7 @@ h1{
 .headline{
     font-weight: bold;
     font-size: 30px;
+    margin-bottom: 30px;
 }
 hr{
     border-color: #0D0D0D;
@@ -79,6 +80,27 @@ hr{
     float: right;
     line-height: 20px;
     border: 2px solid #80BFB4;
+}
+.contactbox{
+    background: #F2F2F2;
+    padding: 30px;
+    line-height: 20px;
+    border: 2px solid #80BFB4;
+}
+input{
+    width: 100%;
+}
+textarea{
+    width: 100%;
+}
+.info{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+button{
+    background: #80BFB4;
+    padding: 10px 30px 10px 30px;
+    color: #F2F2F2;
 }
 .bodycopy{
     margin-top: 30px;
@@ -93,7 +115,7 @@ hr{
     background: #0D0D0D;
     color: white;
     padding-top: 50px;
-    border-top: 10px solid #80BFB4;
+    border-top: 8px solid #80BFB4;
     margin-top: 50px;
     text-align: center;
 }

@@ -5,43 +5,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Contact</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/contactstyle.css">
 </head>
-
-<header>
-    <h1>Michael Kennedy</h1>
-
-    <div class="topnav">
-        <a href="#about">About</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#contact">Contact</a>
-    </div>
-</header>
-
 <body>
 
-    <h2>Contact</h2>
+<!-- All Page Content -->
+<div id="page-container">
+    <!-- Content Wrapper -->
+    <div id="content-wrapper">
+        <!-- header -->
+        <header>
+            <div class="wrapper">
+                <h1 class="name">Michael Kennedy</h1>
 
-    <hr>
+                <ul class="topnav">
+                    <!-- <li class="name">Michael Kennedy</li> -->
+                    <li class="navpages"><a class="about" href="/index.html">About</a></li>
+                    <li class="navpages"><a class="portfolio" href="/portfolio.html">Portfolio</a></li>
+                    <li class="navpages"><a class="contact" href="/contact.html">Contact</a></li>
+    
 
-    <form>
-        <label>Name</label>
-        <br>
-        <input type="text">
-        <br>
-        <label>Email</label>
-        <br>
-        <input type="text">
-        <br>
-        <label>Message</label>
-        <br>
-        <textarea>
+                </ul>
+            </div>
 
-        </textarea>
-        <br>
-        <button type="button">Submit</button>
+        </header>
 
-    </form>
+        <!-- body content -->
+        <div class="wrapper">
+
+            <div class="contactbox">
+
+                <h2 class="headline">Contact</h2>
+
+                <hr>
+
+                <form>
+                    <label class="info">Name</label>
+                    <br>
+                    <input type="text" placeholder="John Smith">
+                    <br>
+                    <label class="info">Email</label>
+                    <br>
+                    <input type="text" placeholder="example@email.com">
+                    <br>
+                    <label class="info">Message</label>
+                    <br>
+                    <textarea rows="10">
+            
+                    </textarea>
+                    <br>
+                    <button type="button">Submit</button>
+                </form>
+
+            </div>
+
+        </div>
+
+        <!-- footer content -->
+        <footer>
+            <div class="footerbox">
+                <p class="footercopy">
+                    copyright 2019
+                </p>
+            </div>
+        </footer>
+    </div>
+</div>
 
 </body>
 </html>
